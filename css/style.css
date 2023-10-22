@@ -1,3 +1,4 @@
+/* header */
 .header {
     height: 559px;
 }
@@ -61,4 +62,80 @@
 .banner-text h3 {
     font-size: 60px;
     line-height: 66px;
+}
+
+/* section */
+.section {
+    padding-top: 180px;
+}
+.section-container{
+    max-width: 1220px;
+    width: 95%;
+    margin: 0 auto;
+}
+.top {
+    max-width: 1220px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top-left,
+.top-right {
+    width: 585px;
+}
+.lets-talk {
+    width: 585px;
+}
+.lets-talk h6 {
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #37393F;
+    margin-bottom: 16px;
+}
+.lets-talk h3 {
+    font-size: 40px;
+    line-height: 48.4px;
+    color: #37393F;
+    margin-bottom: 11px;
+}
+.lets-talk p{
+    font-size: 18px;
+    line-height: 26.31px;
+    color: #7D7D7D;
+}
+.contact-info {
+    width: 367px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 33px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    
+}
+.contact p {
+    font-size: 16px;
+    line-height: 21.63px;
+    color:#7D7D7D ;
+}
+.icon {
+    width: 68px;
+    height: 68px;
+    background-color: #F4F4F4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 19px;
+}
+.phone {
+    width: 281px;
+}
+.email {
+    width: 282px;
+}
+.map {
+    width: 367px;
 }
